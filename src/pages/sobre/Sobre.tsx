@@ -182,7 +182,7 @@ export default function Sobre() {
   return (
     <div className="bg-white">
       {/* Banner */}
-      <section className="relative h-100 flex items-center justify-center text-white">
+      <section className="relative h-80 flex items-center justify-center text-white">
         <div className="absolute inset-0 bg-black/60 z-10" />
         <img
           src="https://images.unsplash.com/photo-1453219562534-36e2ce0ea18e?q=80&w=1673&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

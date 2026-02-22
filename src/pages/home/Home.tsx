@@ -5,10 +5,10 @@ import logoEscritaBranca from "../../assets/Logotipo Seguidores Branco PNG.png";
 export default function Home() {
   return (
     <>
-      <div className="bg-white">
+      <div className="">
         {/* Seção Inicial/Banner */}
 
-        <section className="relative min-h-screen flex items-center justify-center text-white">
+        <section className="relative h-full flex items-center justify-center text-white">
           <div className="absolute inset-0 bg-black/50 z-10" />
           <img
             src="https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -17,19 +17,19 @@ export default function Home() {
           />
           <div className="relative z-20 text-center px-4">
             <img
-              className="w-full max-w-75 mx-auto my-8"
+              className="inset-0 w-full h-full max-w-75 mx-auto my-8"
               src={logoEscritaBranca}
             />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/sobre"
-                className="bg-gray-700 hover:bg-gray-900 text-white px-8 py-3 rounded-lg font-semibold transition-colors border-solid-white"
+                className="bg-gray-700 hover:bg-gray-900 text-white px-8 py-3 mb-10 rounded-lg font-semibold transition-colors border-solid-white"
               >
                 Conheça a Igreja
               </Link>
               <Link
                 to="/contato"
-                className="bg-gray-700 hover:bg-gray-900 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+                className="bg-gray-700 hover:bg-gray-900 text-white px-8 py-3 mb-10 rounded-lg font-semibold transition-colors"
               >
                 Entre em Contato
               </Link>
@@ -38,9 +38,9 @@ export default function Home() {
         </section>
 
         {/* Programação Semanal*/}
-        <section className="py-16 px-4 bg-gray-800 text-white">
+        <section className=" py-10 px-4 bg-gray-800 text-white">
           <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold mb-10">
               Participe dos Nossos Cultos
             </h2>
             {/* Grid das caixas */}

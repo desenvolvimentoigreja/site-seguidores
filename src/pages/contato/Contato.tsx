@@ -218,10 +218,7 @@ export default function Contact() {
                       Telefone
                     </h3>
                     <p className="text-gray-600 hover:text-blue-600">
-                      <a href="tel:(11) 1234-5678">(11) 1234-5678</a>
-                    </p>
-                    <p className="text-gray-600 hover:text-blue-600">
-                      <a href="tel:(11) 98765-4321">(11) 98765-4321</a>
+                      <a href="tel:(11) 91546-0145">(11) 91546-0145</a>
                     </p>
                   </div>
                 </div>
@@ -237,11 +234,6 @@ export default function Contact() {
                     <p className="text-gray-600 hover:text-blue-600">
                       <a href="mailto:contato@igrejaseguidores.com.br">
                         contato@igrejaseguidores.com.br
-                      </a>
-                    </p>
-                    <p className="text-gray-600 hover:text-blue-600">
-                      <a href="mailto:secretaria@igrejaseguidores.com.br">
-                        secretaria@igrejaseguidores.com.br
                       </a>
                     </p>
                   </div>
