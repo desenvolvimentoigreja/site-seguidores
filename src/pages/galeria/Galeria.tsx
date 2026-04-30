@@ -2,24 +2,24 @@ import { useState } from "react";
 
 const galleryImages = [
   {
-    url: "https://images.unsplash.com/photo-1608569569089-5d2e3e644ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBidWlsZGluZyUyMGV4dGVyaW9yfGVufDF8fHx8MTc2OTUwODczMnww&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Fachada da igreja",
+    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Entrada%20com%20a%20placa_.jpg",
+    alt: "Entrada, com a da igreja",
     category: "Infraestrutura",
   },
   {
-    url: "https://images.unsplash.com/photo-1713552108094-2de99ab121a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaHVyY2glMjBpbnRlcmlvciUyMHdvcnNoaXB8ZW58MXx8fHwxNzY5NDc5MDA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Interior da igreja durante culto",
-    category: "Cultos",
+    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Nave%20da%20igreja%20vazia%20vista%20portinha.jpg",
+    alt: "Nave da igreja vazia vista lateral",
+    category: "Infraestrutura",
   },
   {
-    url: "https://images.unsplash.com/photo-1729089049653-24312fdca908?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZW9wbGUlMjBwcmF5aW5nJTIwdG9nZXRoZXJ8ZW58MXx8fHwxNzY5NDgzNDkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Momento de oração",
-    category: "Cultos",
+    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Nave%20da%20igreja%20vista%20da%20galeria.jpg",
+    alt: "Nave da igreja vista da galeria",
+    category: "Infraestrutura",
   },
   {
-    url: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiaWJsZSUyMHN0dWR5JTIwZ3JvdXB8ZW58MXx8fHwxNzY5NDc5MDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    alt: "Estudo bíblico em grupo",
-    category: "Ministérios",
+    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Culto%20domingo%20vista%20do%20port%C3%A3o_.jpg",
+    alt: "Culto de domingo",
+    category: "Cultos",
   },
   {
     url: "https://images.unsplash.com/photo-1717278088397-61477b512d78?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
