@@ -3,7 +3,7 @@ import { useState } from "react";
 const galleryImages = [
   {
     url: "https://ik.imagekit.io/alicia16/cultocorredordomeio?updatedAt=1778062298548",
-    alt: "Momento de minstração",
+    alt: "Momento de ministração",
     category: "Cultos",
   },
   {
@@ -13,12 +13,12 @@ const galleryImages = [
   },
   {
     url: "https://ik.imagekit.io/alicia16/ceia/mesaceia",
-    alt: "Mesa de Ceia",
+    alt: "Mesa da Ceia",
     category: "Celebração",
   },
   {
     url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Culto%20domingo%20vista%20do%20port%C3%A3o_.jpg",
-    alt: "Palavra de Domingo",
+    alt: "Momento da palavra",
     category: "Cultos",
   },
   {
@@ -28,13 +28,13 @@ const galleryImages = [
   },
   {
     url: "https://ik.imagekit.io/alicia16/cultolouvor?updatedAt=1778061576026",
-    alt: "Louvor",
+    alt: "Momento do louvor",
     category: "Cultos",
   },
   {
     url: "https://ik.imagekit.io/alicia16/batismo/WhatsApp%20Image%202026-05-06%20at%2007.36.06.jpeg",
-    alt: "Batismo",
-    category: "Dia de Batismo",
+    alt: "Dia do batismo",
+    category: "Celebração",
   },
   {
     url: "https://ik.imagekit.io/alicia16/dinamicasextoucomelas?updatedAt=1778062297693",
@@ -43,7 +43,7 @@ const galleryImages = [
   },
   {
     url: "https://ik.imagekit.io/alicia16/oracaovisitantes?updatedAt=1778069667688",
-    alt: "Oração de Visitantes",
+    alt: "Momento dos visitantes",
     category: "Cultos",
   },
 ];
