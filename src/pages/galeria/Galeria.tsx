@@ -2,34 +2,49 @@ import { useState } from "react";
 
 const galleryImages = [
   {
-    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Entrada%20com%20a%20placa_.jpg",
-    alt: "Entrada, com a da igreja",
-    category: "Infraestrutura",
-  },
-  {
-    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Nave%20da%20igreja%20vazia%20vista%20portinha.jpg",
-    alt: "Nave da igreja vazia vista lateral",
-    category: "Infraestrutura",
-  },
-  {
-    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Nave%20da%20igreja%20vista%20da%20galeria.jpg",
-    alt: "Nave da igreja vista da galeria",
-    category: "Infraestrutura",
-  },
-  {
-    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Culto%20domingo%20vista%20do%20port%C3%A3o_.jpg",
-    alt: "Culto de domingo",
+    url: "https://ik.imagekit.io/alicia16/cultocorredordomeio?updatedAt=1778062298548",
+    alt: "Momento de minstração",
     category: "Cultos",
   },
   {
-    url: "https://images.unsplash.com/photo-1717278088397-61477b512d78?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    alt: "Evento de mulheres",
+    url: "https://ik.imagekit.io/alicia16/oracaopupito?updatedAt=1778061542875",
+    alt: "Momento de oração",
+    category: "Cultos",
+  },
+  {
+    url: "https://ik.imagekit.io/alicia16/ceia/mesaceia",
+    alt: "Mesa de Ceia",
+    category: "Celebração",
+  },
+  {
+    url: "https://ik.imagekit.io/alicia16/Fotos%20dos%20Espa%C3%A7os/Culto%20domingo%20vista%20do%20port%C3%A3o_.jpg",
+    alt: "Palavra de Domingo",
+    category: "Cultos",
+  },
+  {
+    url: "https://ik.imagekit.io/alicia16/sextoucomelas?updatedAt=1778061560814",
+    alt: "Sextou com Elas - Evento de Mulheres",
     category: "Eventos",
   },
   {
-    url: "https://images.unsplash.com/photo-1550633794-58a2127a9027?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    url: "https://ik.imagekit.io/alicia16/cultolouvor?updatedAt=1778061576026",
+    alt: "Louvor",
+    category: "Cultos",
+  },
+  {
+    url: "https://ik.imagekit.io/alicia16/batismo/WhatsApp%20Image%202026-05-06%20at%2007.36.06.jpeg",
     alt: "Batismo",
+    category: "Dia de Batismo",
+  },
+  {
+    url: "https://ik.imagekit.io/alicia16/dinamicasextoucomelas?updatedAt=1778062297693",
+    alt: "Sextou com Elas - Dinâmica",
     category: "Eventos",
+  },
+  {
+    url: "https://ik.imagekit.io/alicia16/oracaovisitantes?updatedAt=1778069667688",
+    alt: "Oração de Visitantes",
+    category: "Cultos",
   },
 ];
 
