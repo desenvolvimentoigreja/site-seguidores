@@ -19,7 +19,7 @@ Site institucional da Igreja Seguidores, desenvolvido voluntariamente com foco e
 
 - **Home** — apresentação da igreja
 - **Sobre** — história e missão da comunidade
-- **Galeria** — fotos da estrutura da igreja
+- **Galeria** — fotos dos cultos e eventos da igreja
 - **Contato** — formulário integrado com Google Sheets via API
 
 ---
@@ -48,7 +48,8 @@ npm run build
 ## Próximos passos
 
 - [ ] Integração com a **API do Instagram** para exibir postagens dinamicamente no site
-- [ ] Integração com **API do Youtube** para exibir alerta visual ou/e enviar notificação quando a transmissão da igreja estiver Live 
+- [ ] Integração com **API do Youtube** para exibir alerta visual ou/e enviar notificação quando a transmissão da igreja estiver Live
+
 ---
 
 ## Sobre o desenvolvimento
