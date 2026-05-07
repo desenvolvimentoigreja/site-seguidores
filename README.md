@@ -48,7 +48,7 @@ npm run build
 ## Próximos passos
 
 - [ ] Atualizar o site com Next, atualmente por usar React puro, o site está mal otimizado para SEO. (PRIORIDADE ALTA)
-- [ ] - [ ] Realizar teste com Cypress + React Testing Library, como o site está crescendo, preciso garantir a segurança e manutençao dos componentes e das integrações. (PRIODADE ALTA)
+- [ ] Realizar teste com Cypress + React Testing Library, como o site está crescendo, preciso garantir a segurança e manutençao dos componentes e das integrações. (PRIODADE ALTA)
 - [ ] Integração com a **API do Instagram** para exibir postagens dinamicamente no site (PRIODIDADE MÉDIA)
 - [ ] Integração com **API do Youtube** para exibir alerta visual ou/e enviar notificação quando a transmissão da igreja estiver Live. (PRIORIDADE MÉDIA)
       
