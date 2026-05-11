@@ -232,8 +232,8 @@ export default function Contact() {
                       E-mail
                     </h3>
                     <p className="text-gray-600 hover:text-blue-600">
-                      <a href="mailto:contato@igrejaseguidores.com.br">
-                        contato@igrejaseguidores.com.br
+                      <a href="mailto:administracao@igrejaseguidores.com.br">
+                        administracao@igrejaseguidores.com.br
                       </a>
                     </p>
                   </div>
@@ -252,7 +252,7 @@ export default function Contact() {
                     <p className="text-gray-600">E durante horário de culto</p>
                     <p className="text-gray-600">
                       Horário do cultos: Terças e quartas ás 20hrs e no domingo
-                      ás 8hrs
+                      ás 9:30hrs
                     </p>
                     <p className="text-gray-600">
                       Para mais detalhes confira nossas redes sociais
