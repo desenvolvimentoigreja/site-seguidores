@@ -91,8 +91,8 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-white" />
                 <p className="text-gray-400 hover:text-white">
-                  <a href="mailto:contato@igrejaseguidores.com.br">
-                    contato@igrejaseguidores.com.br
+                  <a href="mailto:administracap@igrejaseguidores.com.br">
+                    administracao@igrejaseguidores.com.br
                   </a>{" "}
                 </p>
               </div>
